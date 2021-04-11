@@ -1,0 +1,221 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --third-color: #2196f3;
+
+  --main-background-color: #e5e5e5;
+  --secondary-background-color: #2f303a;
+
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+/* """"""""Nagłówek""""""""*/
+
+.header {
+  background-color: #fff;
+}
+
+/*""""""Logo""""""*/
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.92;
+  letter-spacing: 0.03em;
+  text-decoration-line: none;
+}
+
+.logo_black {
+  color: #000;
+}
+
+.logo_white {
+  color: #fff;
+}
+
+span {
+  color: var(--third-color);
+}
+
+/*""""""Nawigacja""""""*/
+
+.header__nav-link,
+.header__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+
+.header__nav-link {
+  color: var(--main-color);
+}
+
+.header__link {
+  color: var(--secondary-color);
+}
+
+.header__nav-link:hover,
+.header__nav-link:focus,
+.header__link:hover,
+.header__link:focus {
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+/*======Stopka======*/
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.adress-opacity,
+.adress-no-opacity {
+  text-decoration-line: none;
+  font-style: normal;
+  color: #fff;
+}
+
+.adress-opacity:hover,
+.adress-no-opacity:hover,
+.adress-opacity:focus,
+.adress-no-opacity:focus {
+  color: var(--third-color);
+}
+
+.adress-opacity {
+  opacity: 0.6;
+}
+
+/*======BODY ======*/
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+/*======MAIN INDEX======*/
+
+/*====== elemants thats repete======*/
+
+.secundary_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.poster {
+  background-color: var(--secondary-background-color);
+}
+
+.poster_title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363em;
+  text-transform: uppercase;
+}
+
+.poster_btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  background-color: var(--third-color);
+}
+
+.poster_btn:focus,
+.poster_btn:hover {
+  cursor: pointer;
+}
+
+.poster_title,
+.poster_btn {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.06;
+}
+
+/*======nasze atuty======*/
+
+.atuts_title {
+  font-weight: 700;
+  line-height: 1.142em;
+  text-transform: uppercase;
+}
+
+.atuts_text {
+  line-height: 1.714em;
+  color: var(--secondary-color);
+}
+
+.atuts_title,
+.atuts_text {
+  font-size: 14 px;
+  letter-spacing: 0.03;
+}
+
+/*====== o nas ======*/
+
+/*======Team======*/
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team_name {
+  font-weight: 500;
+}
+
+.team_profession {
+  color: var(--secondary-color);
+}
+
+.team_profession,
+.team_name {
+  font-size: 16px;
+  line-height: 1.186em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*======PORTFOLIO======*/
+
+.filtr_btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+  letter-spacing: 0.03;
+  background-color: #f5f4fa;
+}
+
+.filtr_btn:hover,
+.filtr_btn:focus {
+  color: #fff;
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.carts_title {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06;
+}
+
+.carts_text {
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.03;
+  color: var(--secondary-color);
+}
